@@ -1,39 +1,32 @@
+/* Copyright 2016 Kevin Kowalsky */
 body {
+    border-style: solid;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: white;
     font-family: "Sans-serif", Times, serif;
     width: 800px;
-     margin: 20px auto;
-     background-color: white;
-     z-index:-1;position:relative;
-    border-style: solid;
-    box-shadow: 10px 10px 5px #888888
-        
-    
+    margin: 20px auto;
+    position:relative;
+    z-index:-1;
 }
-html{
+html {
     background-image: url("images/bats.gif"); 
     background-repeat: repeat;
 }
 .kev:first-letter {
-        font-size: 300%;
-        
-	padding-right: 0px;
-
-	position:relative;
-
-	margin-left: 0px;
-
+    font-size: 300%;
+    padding-right: 0px;
+    position:relative;
+    margin-left: 0px;
 	}
-        img {
+img {
     float: left;
     margin: 0 0 10px 10px;
 }
-main{
-    
-    margin-left: 160px ;
-    
-    
+main {
+    margin-left: 160px;
 }
-section{
+section {
     margin-left: 160px;
 }
 a {
@@ -41,35 +34,35 @@ a {
     font-weight: bold; 
 }
 li {
-   margin:0 0 10px 0;   
+    margin:0 0 10px 0;   
 }
-nav{
-width:160px;
-margin-left: auto ;
-margin-right: auto ;
-margin-top: -450px;
-float: left;
+nav {
+    width:160px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: -450px;
+    float: left;
 }
 a:hover {
     color: green;
 }
-footer{
+footer {
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-45deg,white, orange, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg,white, orange, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg,white, orange, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg,white, orange, black); /* Standard syntax */
+    border-style: solid;
     font-size: 80%;
     text-align: center;
     height: 100px;
-    border-style: solid;
-         background: orange; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-45deg,white, orange, black); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-45deg,white, orange, black); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-45deg,white, orange, black); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-45deg,white, orange, black); /* Standard syntax */
 }
-header{
-     background: orange; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-45deg,black, orange, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-45deg,black, orange, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-45deg,black, orange, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-45deg,black, orange, white); /* Standard syntax */
+header {
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-45deg,black, orange, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg,black, orange, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg,black, orange, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg,black, orange, white); /* Standard syntax */
     border-style: solid;
 }
 
