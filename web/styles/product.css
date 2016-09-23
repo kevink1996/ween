@@ -38,11 +38,14 @@ section {
     list-style-type: none;
 }
 .rightt li{
-    padding: 0 0 50px 0;
+    
+}
+.rightt a{
+    width: 100px;
 }
 .rightt img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 a {
     color: black;
