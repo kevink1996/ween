@@ -1,0 +1,120 @@
+/* Copyright 2016 Kevin Kowalsky */
+body {
+    border-style: solid;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: white;
+    font-family: "Sans-serif", Times, serif;
+    width: 800px;
+    
+    margin: 20px auto;
+    position:relative;
+    z-index:-1;
+}
+html {
+    background-image: url("images/bats.gif"); 
+    background-repeat: repeat;
+}
+.kev:first-letter {
+    font-size: 300%;
+    padding-right: 0px;
+    position:relative;
+    margin-left: 0px;
+	}
+img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+main {
+    margin-left: 160px;
+}
+section {
+    height: 300px;
+    margin-left: 160px;
+}
+a {
+    color: black;
+    font-weight: bold; 
+    display: block;
+}
+.sidee li {
+    margin:0 0 3px 0;  
+    border:1px solid black;
+    background-color:orange; 
+    list-style-type:none;
+    padding:20px 20px;
+    display: block;
+}
+nav {
+    width:160px;
+    margin-left: -20px;
+    margin-right: -100px;
+    margin-top: 0px;
+    float: left;
+}
+a:hover {
+    color: green;
+}
+footer {
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-45deg,white, orange, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg,white, orange, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg,white, orange, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg,white, orange, black); /* Standard syntax */
+    border-style: solid;
+    font-size: 80%;
+    text-align: center;
+    height: 100px;
+}
+header {
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-45deg,black, orange, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg,black, orange, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg,black, orange, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg,black, orange, white); /* Standard syntax */
+    border-style: solid;
+}
+.topper{
+    list-style-type: none;
+    margin: 0;
+    margin-left: -160px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.topper li{
+    width: 20%;
+    float: left;
+}
+.topper li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topper li a:hover{
+    color: orange;
+}
+form {
+  width: 70%;
+}
+
+form label {
+  display: inline-block;
+  margin-right: 80px;
+  text-align: right;
+  width: 5px;
+  
+}
+
+input {
+  margin-bottom: 3px;
+  width: 70px;
+}
+
+input[type="submit"] {
+  background-color: orange;
+  margin-bottom: 1px;
+  width: 50px;
+}
+

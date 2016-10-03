@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>The Halloween Store</title>
-        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/main_rws.css">
 </head><body>
 
 <header>
@@ -15,13 +15,15 @@
     
 </header>
     <main>
-        <ul class="topper">
+        <ul id="menuu" class="topper">
   <li><a href="index.html">Home</a></li>
   <li><a href="products.html">Product List</a></li>
   <li><a href="contact.asp">Personal</a></li>
   <li><a href="about.asp">Decorating Ideas</a></li>
   <li><a href="email.html">Join Email</a></li>
 </ul>
+        <p id="menu">Menu<a>&#9776;</a></p>
+        
         <h1 class="kev">Welcome to my site.<br> Please come in and stay awhile.</h1>
         <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.
 If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.
@@ -41,10 +43,16 @@ If you click on the Personal link, you can browse my favorite Halloween pictures
 
 
     <section>
-        
+       <ul class="sideee">
+        <li><a href="cat.html"><b>Props</b></a></li>
+        <li><a href="products/costumes.html"><b>Costumes</b></a></li>
+        <li><a href="products/special.html"><b>Special Effects</b></a></li>
+        <li><a href="products/masks.html"><b>Masks</b></a></li>
+    </ul>  
 <h3>My Guarantee</h3>
 <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>
     </section>
     <footer>&copy; 2016 Kevin Kowalsky</footer>
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
